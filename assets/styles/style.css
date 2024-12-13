@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+header{
+    height: 96px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px;
+    
+}
+
+.logo{
+    width: 54px;
+    height: 63px;
+    
+}
+
+.nav-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-header-list{
+    display: flex;
+    list-style: none;
+    
+}
+
+.list{
+    display: flex;
+    width: 204px;
+}
+
+.list a{
+    text-decoration: none;
+}
+
+.list1, .list2{
+    gap: 12px;
+}
+
+.list1 a{
+    color: black;
+}
+
+.list1 a:hover{
+    color: black;
+    background-color: grey;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.txt1 a{
+    color: black;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.txt2 a{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.topnavinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px;
+}
+
+.linksnavinfo a{
+    color: #757575;
+    text-decoration: none;
+}
+
+.linksnavinfo a:hover{
+    text-decoration: underline;
+}
+
+.pre a{
+    text-decoration: none;
+    color: black;
+}
+
+.pre a:hover{
+    color: black;
+    background-color: grey;
+    padding: 2px;
+    border-radius: 8px;
+}
+main{
+    margin: 32px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 32px;
+    
+}
+
+.items{
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    padding: 16px;
+    
+}
+
+.item2{
+    grid-column: 2 / span 2;
+}
+
+.item4{
+    grid-column: 1 / span 2;
+}
+
+
+
+.item1 img{
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    height: 247px;
+}
+
+.item2 img{
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    height: 247px;
+}
+
+.item3 img{
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    height: 247px;
+}
+
+.item4 img{
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    height: 247px;
+}
+
+.item5 img{
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    height: 247px;
+}
+
+.item6 img{
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    height: 247px;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 312px;
+    height: 52px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 639px;
+    height: 52px;
+}
+
+.item3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 292px;
+    height: 46px;
+    
+}
+
+.item4, .item5, .item6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-container4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 639px;
+    height: 52px;
+    
+}
+
+.item-container5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 324px;
+    height: 52px;
+    
+}
+
+.item-container6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 324px;
+    height: 52px;
+    
+}
+
+.itemtxt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.item-button a{
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #48B343;
+    text-decoration: none;
+    color: white;
+}
+
+.item-button2 a{
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    color: black;
+}
