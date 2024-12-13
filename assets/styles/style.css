@@ -183,7 +183,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 312px;
+    width: 100%;
     height: 52px;
 }
 
@@ -197,7 +197,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 639px;
+    width: 100%;
     height: 52px;
 }
 
@@ -211,7 +211,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 292px;
+    width: 100%;
     height: 46px;
     
 }
@@ -226,7 +226,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 639px;
+    width: 100%;
     height: 52px;
     
 }
@@ -235,7 +235,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 324px;
+    width: 100%;
     height: 52px;
     
 }
@@ -244,7 +244,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 324px;
+    width: 100%;
     height: 52px;
     
 }
